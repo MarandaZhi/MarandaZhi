@@ -18,3 +18,5 @@ E:\2021\xianyu\WX_Maranda-Zhi\WpfApp1\WpfApp1\bin\Debug\websocket-sharp.xml
 E:\2021\xianyu\WX_Maranda-Zhi\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.CopyComplete
 E:\2021\xianyu\WX_Maranda-Zhi\WpfApp1\WpfApp1\obj\Debug\Window1.g.cs
 E:\2021\xianyu\WX_Maranda-Zhi\WpfApp1\WpfApp1\obj\Debug\Window1.baml
+E:\2021\xianyu\WX_Maranda-Zhi\WpfApp1\WpfApp1\obj\Debug\Interop.WMPLib.dll
+E:\2021\xianyu\WX_Maranda-Zhi\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.ResolveComReference.cache

@@ -22,15 +22,17 @@ namespace WpfApp1
     /// </summary>
     public partial class MainWindow : Window
     {
+
+        public WebSocketSharp.WebSocket webSocket;
         public  MainWindow  ()
         {
             InitializeComponent();
             this.Topmost = true;
             //someMethod();
-           
 
-           
-           
+            webSocket = new WebSocketSharp.WebSocket("ws://39.108.65.86:8108");
+            webSocket.Connect();
+
             var ws = new WebSocketSharp.WebSocket("ws://39.108.65.86:8109");
             ws.OnMessage += (s, e) => {
 
@@ -52,7 +54,13 @@ namespace WpfApp1
             ws.Connect();
 
         }
-      
-       
+
+        private void Name1_Click(object sender, RoutedEventArgs e)
+        {
+            webSocket.Send("Click");
+
+            
+          
+        }
     }
 }

@@ -4,7 +4,7 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfApp1"
-        mc:Ignorable="d" Title="MainWindow" Height="500" Width="500"   Background="Transparent" AllowsTransparency="True" WindowStyle="None" WindowStartupLocation="CenterScreen">
+        mc:Ignorable="d" Title="MainWindow" Height="60" Width="100"   AllowsTransparency="True" WindowStyle="None" WindowStartupLocation="CenterScreen">
     <!--<Grid Margin="0,0,0,0">
         <Grid HorizontalAlignment="Left" Height="100" Margin="10,10,0,0" VerticalAlignment="Top" Width="100" Background="Lime" Opacity="1" />
         <Grid HorizontalAlignment="Left" Height="100" Margin="120,10,0,0" VerticalAlignment="Top" Width="100" Background="Lime" Opacity="0.75" Grid.ColumnSpan="2" />
@@ -12,6 +12,6 @@
         <Grid HorizontalAlignment="Left" Height="100" Margin="120,120,0,0" VerticalAlignment="Top" Width="100" Background="Lime" Opacity="0.25" Grid.ColumnSpan="2" />
     </Grid>-->
     <Grid>
-        <Image Source="G1.png" Name="Image1" Opacity="0" Stretch="Fill" />
+        <Button Content="按钮" Name="Name1" Click="Name1_Click"/>
     </Grid>
 </Window>
